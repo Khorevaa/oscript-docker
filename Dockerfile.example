@@ -1,0 +1,7 @@
+FROM silverbulleters/vanessa-oscript:latest
+
+COPY ./scripts/my-script.os /scripts/
+
+RUN oscript
+
+ENTRYPOINT ["oscript","/scripts/my-script.os"]
