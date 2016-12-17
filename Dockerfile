@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-mono:experimental
+FROM frolvlad/alpine-glibc:latest
 
 MAINTAINER "SilverBulleter's LLC" <team@silverbulleters.org>
 
